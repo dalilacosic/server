@@ -1,0 +1,30 @@
+{
+  "name": "RNA_server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "start": "pm2 start ./bin/www",
+    "debug": "node --inspect ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.5",
+    "mongoose-double": "0.0.1",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pm2": "^3.4.1",
+    "socket.io": "^2.2.0"
+  }
+}
