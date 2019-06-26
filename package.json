@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start:dev": "nodemon ./bin/www",
-    "start": "pm2 start ./bin/www",
-    "debug": "node --inspect ./bin/www"
+    "start" : "node ./bin/www"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
